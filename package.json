@@ -1,0 +1,10 @@
+{
+  "name": "jmoxy",
+  "description": "mocking / proxy server",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "lodash": "*"
+  }
+}

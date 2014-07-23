@@ -1,0 +1,32 @@
+{
+    "hostname": "localhost",
+    "port": 9000,
+    "listening_port": 8888,
+    "rules": [ {
+        "request" : {
+            "url" : "/error1",
+            "method" : "GET"
+        },
+        "response" : {
+            "statusCode" : 200,
+            "headers" : {
+                "ContentType" : "application/json"
+            }
+        },
+        "jsonFile" : "file.json"
+    }, {
+        "request" : {
+            "url" : "/error2",
+            "method" : "GET"
+        },
+        "response" : {
+            "statusCode" : 200,
+            "headers" : {
+                "ContentType" : "application/json"
+            }
+        },
+        "jsonUrl" : "http://echo.jsontest.com/key/value"
+    } 
+    ]
+}
+
